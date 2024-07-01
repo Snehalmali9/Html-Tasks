@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purple Shopping</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="purple.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark purple-bg">
+  <a class="navbar-brand" href="#">Purple Shopping</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#products">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#login">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home" class="container mt-5">
+  <h1 class="text-center">Welcome to Purple Shopping</h1>
+  <p class="text-center">Your one-stop destination for all your shopping needs.</p>
+</section>
+
+<section id="products" class="container mt-5">
+  <h2 class="text-center mb-4">Our Products</h2>
+  <!-- Add your product listings here -->
+</section>
+
+<section id="about" class="container mt-5">
+  <h2 class="text-center mb-4">About Us</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+</section>
+
+<section id="contact" class="container mt-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <p>Please feel free to contact us for any inquiries or feedback.</p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="login" class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="card">
+        <div class="card-header purple-bg text-center">
+          Login
+        </div>
+        <div class="card-body">
+          <form id="loginForm">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Gallery</h5>
+        <!-- Add your gallery images here -->
+        <div class="row">
+          <div class="col-4">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image" class="img-fluid">
+          </div>
+          <div class="col-4">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h5>Shop Address</h5>
+        <p>123 Main Street, City, Country</p>
+        <p>Phone: +123456789</p>
+        <p>Email: info@example.com</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2024 Purple Shopping. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1
+
+/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script>
+  $(document).ready(function(){
+    $('#loginForm').submit(function(event){
+      event.preventDefault();
+      // Perform login logic here
+      // For simplicity, just alert the login success
+      alert('Login successful!');
+    });
+  });
+</script>
+
+</body>
+</html>

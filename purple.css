@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1542282084-3e78e6a9fba2');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #6f42c1;
+  }
+  
+  .purple-bg {
+    background-color: #6f42c1;
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: #6f42c1;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
